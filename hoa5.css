@@ -1,15 +1,85 @@
 body {
-    background-image: url('background.png');
-    background-color: #f2f2f2;
+    background-image: url('img.folder/background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     height: 1000px;
     width: auto;
 }
-.test {
+.mainBox {
     display: block;
-    height: 100px;
-    width: 100px;
+    height: 700px;
+    width: 500px;
+    background-color: blueviolet;
+    border: 4px solid black;
+    border-radius: 30px;
+    position: absolute;
+    left: calc(50% - 254px);
+    top: 30px;
 }
-
+.tiktok {
+    display: inline-block;
+    padding: 20px 20px;
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 30px;
+    top: 300px;
+}
+.tiktokText, .facebookText, .twitterText {
+    color: rgb(187, 162, 211);
+    font-size: 25px;
+    cursor: pointer;
+}
+.text:hover {
+    color: blueviolet;
+    text-decoration: underline
+}
+.tiktokLogo {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.facebook {
+    display: inline-block;
+    padding: 20px 20px;
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 30px;
+    top: 400px;
+}
+.facebookLogo {
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    right: 20px;
+    top: 13px;
+}
+.twitter {
+    display: inline-block;
+    padding: 20px 20px;
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 30px;
+    top: 500px;
+}
+.twitterLogo {
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    right: 20px;
+    top: 13px;
+}
